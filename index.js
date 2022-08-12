@@ -1,8 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
-const util = require('util')
 const inquirer = require('inquirer');
-const { writeFile } = require('fs').promises;
+const generateMarkDown = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
 function promptUser() {
     return inquirer.prompt([
@@ -74,7 +73,7 @@ function promptUser() {
 //Create a function to initialize app, using writeFileSync as a promise
 const init = () => {
     promptUser()
-        .then((data) => writeFile('README.md', generateMarkdown(data)))
+        .then((data) => fs.writeFileSync('README.md', generateMarkDown(data)))
         .then(() => console.log('Sucessfully wrote readme.md.'))
         .catch((err) => console.log(err));
 };
