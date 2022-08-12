@@ -18,7 +18,7 @@ function promptUser() {
         },
         {
             type: 'input',
-            name: 'deployed link',
+            name: 'deployedLink',
             message: 'What is this project Deployed link?',
         },
         {
@@ -54,6 +54,11 @@ function promptUser() {
             type: 'input',
             name: 'contributor',
             message: 'Who is the contributor?',
+        },
+        {
+            type: 'input',
+            name: 'languages',
+            message: 'What language did you use in ths project?',
         },
         {
             type: 'input',
