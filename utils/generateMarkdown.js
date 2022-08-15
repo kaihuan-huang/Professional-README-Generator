@@ -20,6 +20,8 @@ function generateMarkdown(data) {
 ## Description: 
 ${data.description}
 
+The language for ${data.projectTitle} is: ${data.languages};
+
 
 ## 🔗Deployed Link: ${data.deployedLink}
 ## 🖇Github Page: ${data.gitpageLink}
@@ -45,6 +47,9 @@ ${data.usage}
 
 ## 🤝Contribution Guidelines
 Contact me [kaihuan](https://github.com/kaihuan-huang${data.deployedLink})
+
+##Test Instructions
+Can the user test it? ${data.test}
 
 ## ❓Questions❓
 More information? Don't hesitate to contact me: 📧[Email](${data.email})

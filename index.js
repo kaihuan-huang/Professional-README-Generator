@@ -56,6 +56,11 @@ function promptUser() {
         },
         {
             type: 'input',
+            name: 'test',
+            message: 'Can user test it?',
+        },
+        {
+            type: 'input',
             name: 'languages',
             message: 'What language did you use in ths project?',
         },
