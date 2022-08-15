@@ -22,7 +22,7 @@ function promptUser() {
         },
         {
             type: 'input',
-            name: 'gitpage link',
+            name: 'gitpageLink',
             message: 'What is this project Gitpage link?',
         },
         {
