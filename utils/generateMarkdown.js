@@ -23,8 +23,8 @@ ${data.description}
 The language for ${data.projectTitle} is: ${data.languages};
 
 
-## 🔗Deployed Link: ${data.deployedLink}
-## 🖇Github Page: ${data.gitpageLink}
+### 🔗Deployed Link: ${data.deployedLink}
+### 🖇Github Page: ${data.gitpageLink}
 
 ## Table of contents
 - [Description](#description) What the app is for
@@ -43,7 +43,7 @@ ${data.installation}
 ${data.usage}
 
 ## 🪪License
-![Badge]https://img.shields.io/badge/license-${data.license}-brightgreen.
+![Badge](https://img.shields.io/badge/license-${data.license}-brightgreen.svg)
 
 ## 🤝Contribution Guidelines
 Contact me [kaihuan](https://github.com/kaihuan-huang${data.deployedLink})
