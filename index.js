@@ -80,7 +80,7 @@ function promptUser() {
 //Create a function to initialize app, using writeFileSync as a promise
 const init = () => {
     promptUser()
-        .then((data) => fs.writeFileSync('README2.md', generateMarkDown(data)))
+        .then((data) => fs.writeFileSync('README4.md', generateMarkDown(data)))
         .then(() => console.log('Sucessfully wrote readme.md.'))
         .catch((err) => console.log(err));
 };
