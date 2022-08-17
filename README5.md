@@ -39,6 +39,14 @@ Can the user test it? Yes
 ## ❓Questions❓
 More information? Don't hesitate to contact me: 📧[Email](huangkaihuan0216@gmail.com)
 
+## ## Assets
+
+The following images and video demonstrate the web application's appearance and functionality:
+
+![Readme Page](Images/Readme.png)
+
+![Console page](Images/console.png)
+
 ## Video Display
 
 The original video: [Video](https://drive.google.com/file/d/13h7a5PJKCESDNpQ7QurWWjFlrYj2jvEk/view)
