@@ -6,9 +6,9 @@ This is a Professional README Generator that can help users quickly create READM
 
 The language for Professional-README-Generator is: Node.js;
 
-### 🔗Deployed Link: https://github.com/kaihuan-huang/Professional-README-Generator
+#### 🔗Deployed Link: https://github.com/kaihuan-huang/Professional-README-Generator
 
-### 🖇Github Page: https://kaihuan-huang.github.io/Professional-README-Generator/
+#### 🖇Github Page: https://kaihuan-huang.github.io/Professional-README-Generator/
 
 ## Table of contents
 
@@ -32,7 +32,7 @@ Run the following command in the terminal: `node index.js`
 ![Badge](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
 Use inquirer from your command line to answer questions about your project.
-View walk through video here - [Screencastify](https://youtu.be/DoybAn1Rmow)<br>
+View walk through video here - [Screencastify](https://drive.google.com/file/d/1BKyXJX9jFh4Joi15KVfzaLZOtGJ3eVAN/view)<br>
 
 ## Screenshot
 
@@ -42,11 +42,11 @@ The following image demonstrate the web application's appearance:
 
 
 ## 🤝Contribution Guidelines
-Contact me On GitHub[kaihuan](https://github.com/kaihuan-huang)
+Contact me [kaihuan](https://github.com/kaihuan-huang)
 
 ## 🧩Test Instructions
 Can the user test it? Yes
 
 ## ❓Questions❓
-More information? Don't hesitate to contact me: 📧 <p>Email: <a href="mailto:huangkaihuan0216@gmail.com">huangkaihuan0216@gmail.com</a></p>
+More information? Don't hesitate to contact me: 📧Email: <a href="mailto:huangkaihuan0216@gmail.com">huangkaihuan0216@gmail.com</a>
 

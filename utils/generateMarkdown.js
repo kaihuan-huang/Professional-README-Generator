@@ -1,7 +1,5 @@
 //https://shields.io/category/license
-
 const { default: inquirer } = require("inquirer")
-
 
 // Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -24,6 +22,7 @@ The language for ${data.projectTitle} is: ${data.languages};
 - [Installation](#installation) How to install it
 - [Usage Information](#usage) How to use it
 - [License](#license)
+- [Screenshot](#Screenshot)
 - [Contact](#email) Contact contributor to reprot issue
 - [Contribution Guidelines](#contribution)
 - [Test Instructions](#test)
@@ -37,8 +36,18 @@ ${data.usage}
 ## 🪪License
 ![Badge](https://img.shields.io/badge/license-${data.license}-brightgreen.svg)
 
+Use inquirer from your command line to answer questions about your project.
+View walk through video here - [Screencastify](https://youtu.be/DoybAn1Rmow)<br>
+
+## Screenshot
+
+The following image demonstrate the web application's appearance:
+
+![Team Page](video/page.gif)
+
+
 ## 🤝Contribution Guidelines
-Contact me [kaihuan](https://github.com/kaihuan-huang${data.deployedLink})
+Contact me On GitHub[kaihuan](https://github.com/kaihuan-huang)
 
 ## 🧩Test Instructions
 Can the user test it? ${data.test}
