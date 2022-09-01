@@ -74,16 +74,18 @@ function promptUser() {
     ])
 }
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) { }
+//Create a function to write README file
+function writeToFile(fileName, data) { 
+    return fs.writeFileSync(fileName,data);
+}
 
 //Create a function to initialize app, using writeFileSync as a promise
 const init = () => {
     promptUser()
-        .then((data) => fs.writeFileSync('README5.md', generateMarkDown(data)))
+        .then((data) => fs.writeFileSync('README.md', generateMarkDown(data)))
         .then(() => console.log('Sucessfully wrote readme.md.'))
         .catch((err) => console.log(err));
-};
+}
 
 // Function call to initialize app
 init();
