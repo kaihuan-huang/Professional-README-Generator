@@ -32,7 +32,7 @@ Run the following command in the terminal: `node index.js`
 ![Badge](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
 Use inquirer from your command line to answer questions about your project.
-View walk through video here - [Screencastify](https://youtu.be/DoybAn1Rmow)<br>
+View walk thorough video here - [youtu.be](https://youtu.be/DoybAn1Rmow)<br>
 
 ## Screenshot
 
